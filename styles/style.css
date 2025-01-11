@@ -102,16 +102,24 @@ header{
         border-radius: 16px;
     }
     /* quotes style */
-    .quotes{
-       
-        margin: 32px;
+     .quote{
+        max-width: 1280px;
+        margin: 80px 160px;
+        background-color: #FFFFFF;
+        padding: 24px 48px;
     }
-    .quote-description{
+  
+     .quote-description{
         background-image: url(../images/quote-bg.png);
         background-repeat: no-repeat;
-        background-color: #FFFFFF;
-        margin-top: 20px;
-    }
+     }
+     .quote-title{
+        font-weight: 600;
+        font-size: 20px;
+        color: rgba(14, 14, 14, 0.84);
+        margin-top: 12px;
+        margin-bottom: 4px;
+     }
     /* news styles */
     .news{
         max-width: 1280px;
@@ -167,6 +175,9 @@ header{
         color: #0E0E0E;
        
     }
+    .donate-description{
+        margin-bottom: 32px;
+    }
     .donate-btn:hover{
         background-color: #5464F5;
         color: #FFC239;
@@ -182,25 +193,23 @@ header{
     }
     .btn-bg-color{
         background-color: #C6E4D6;
-
     }
-    main input[type="text"]{
+    .donate-input{
         height: 64px;
-        background-color: #FFFFFF;
-        display: block;
-        width: 990px;
-        margin: 32px 124px;
+        width: 1000px;
         border: none;
         text-align: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
-    .letter{
+  
+    /* letter styles */
+    .letter-container{
         max-width: 1280px;
         margin: 80px 160px;
+        padding: 80px 265px;
         text-align: center;
         background-color: #C6E4D6;
-    }
-    .letter-container{
-        padding: 80px 265px;
     }
     .letter-title{
         font-weight: bold;
