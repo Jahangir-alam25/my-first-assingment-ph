@@ -5,6 +5,9 @@
 }
 
 /* share styles */
+body{
+    background-color: rgba(14, 14, 14, 0.05);
+}
 .btn-primary:hover{
     color: brown;
 }
@@ -129,8 +132,21 @@ header{
         justify-content: space-between;
         gap: 32px;
         padding: 48px;
+        background-color: #FFFFFF;
+        border-radius: 24px;
+    }
+    .news-sub-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        padding: 48px;
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        margin-top: 24px;
     }
     .news-item-img{
+       
         border-radius: 24px;
     }
     .news-item-title{
@@ -138,3 +154,43 @@ header{
         font-size: 32px;
         color: #0E0E0E;
     }
+    /* donate styles */
+    .donate{
+        max-width: 1280px;
+        margin: 80px 160px;
+        text-align: center;
+       
+    }
+    .donate-title{
+        font-weight: bold;
+        font-size: 40px;
+        color: #0E0E0E;
+       
+    }
+    .donate-btn:hover{
+        background-color: #5464F5;
+        color: #FFC239;
+    }
+    .donate-btn{
+        background-color: #FFFFFF;
+        font-weight: bold;
+        font-size: 40px;
+        color: #0E0E0E;
+        padding: 40px;
+        border: none;
+        border-radius: 16px;
+    }
+    .btn-bg-color{
+        background-color: #C6E4D6;
+
+    }
+    main input[type="text"]{
+        height: 64px;
+        background-color: #FFFFFF;
+        display: block;
+        width: 990px;
+        margin: 32px 124px;
+        border: none;
+        text-align: center;
+    }
+  
