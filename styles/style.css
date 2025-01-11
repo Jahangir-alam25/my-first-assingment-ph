@@ -193,4 +193,43 @@ header{
         border: none;
         text-align: center;
     }
+    .letter{
+        max-width: 1280px;
+        margin: 80px 160px;
+        text-align: center;
+        background-color: #C6E4D6;
+    }
+    .letter-container{
+        padding: 80px 265px;
+    }
+    .letter-title{
+        font-weight: bold;
+        font-size: 40px;
+        color: #0E0E0E;
+    }
+    .last-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .chalange-btn{
+        border: none;
+        border-radius: 5px 0 0 5px;
+        background-color: #FFFFFF;
+        color: rgba(14, 14, 14, 0.3);
+        padding: 18px 375px 18px 40px;
+      
+    }
+    .chalange-btn-1{
+        border-radius: 0 5px 5px 0;
+        background-color: #006A50;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 17px 34px;
+        border: none;
+        
+
+    }
+    
   
